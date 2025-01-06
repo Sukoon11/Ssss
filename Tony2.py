@@ -68,7 +68,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     keyboard = [
         [InlineKeyboardButton("Register", url="https://tinyurl.com/48vr69at")],
-        [InlineKeyboardButton("Join Channel", url="https://t.me/Goa_Gamee_Link")],
+        [InlineKeyboardButton("Join Channel", url="https://t.me/TeamEarningZone")],
         [InlineKeyboardButton("Check Join", callback_data="check_join")]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
