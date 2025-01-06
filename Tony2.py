@@ -157,7 +157,7 @@ async def background_worker():
         await asyncio.sleep(60)
 
 def main():
-    application = Application.builder().token("7490099653:AAFwf-ePtVaIsODfFWZQSwfvxDjntdidDYs").build()
+    application = Application.builder().token("7279695237:AAHn4JeJcWmW0yc2dOUCmPr1fbgpYKenmco").build()
 
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CallbackQueryHandler(button_handler, pattern="check_join"))
